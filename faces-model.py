@@ -15,6 +15,7 @@ dataset = "https://drive.google.com/uc?export=download&id=1ThUklHdF9_LhujOFvg6-2
 directory = tf.keras.utils.get_file('losmasguaposdeltec.tgz', origin=dataset, untar=True)
 data = pathlib.Path(directory)
 
+
 #print(folders)
 
 # Import the images and resize them to a 128*128 size
