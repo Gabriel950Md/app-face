@@ -11,7 +11,7 @@ import pathlib
 
 # Set the path of the input folder
 
-dataset = "https://drive.google.com/uc?export=download&id=1ThUklHdF9_LhujOFvg6-2kxqB79vnO92"
+dataset = "https://drive.google.com/file/d/1ThUklHdF9_LhujOFvg6-2kxqB79vnO92/view?usp=sharing"
 directory = tf.keras.utils.get_file('losmasguaposdeltec.tgz', origin=dataset, untar=True)
 data = pathlib.Path(directory)
 
